@@ -13,7 +13,7 @@ body{
     padding-bottom: 80px;
 }
 .fixed-top{
-    background: #F0FFF0;
+    background: #c4f4ef;
 }
 .nav-item{
     padding: 0px 5px;
@@ -27,9 +27,29 @@ body{
 }
 
 /* Header section */
+/* header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+ }
+
+
+  header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: lowercase;
+   font-weight: 700;
+   color:gray;
+  }
+
+.header-content-inner img {
+ float: left;   
+} */
+
 .header-section{
     height: 100vh;
-    background-color: #F0FFF0;
+    background-color: hsl(167, 57%, 87%);
 }
 .header-details h6{
     color: #FD511A;
@@ -53,6 +73,15 @@ body{
     line-height: 36px;
     color: #6C6B6B;
     margin-bottom: 15px;
+}
+ h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: lowercase;
+   font-weight: 700;
+   font-size: medium;
+   color:rgb(5, 5, 5);
+
 }
 .get-btn{
     padding: 12px 35px;
@@ -201,7 +230,7 @@ body {
   display: none
 }
 img {
-  vertical-align: middle;
+  vertical-align:middle;
 }
 .slideshow-container {
   max-width: 1000px;
@@ -326,13 +355,13 @@ img {
 }
 .subscribe-inner a{
     text-decoration: none;
-    color: #ffffff;
+    color: #fbfbfb;
 }
 /* Footer section */
 .footer-section{
     padding-top: 55px;
-    background: #282531;
-    color: #FFFFFF;
+    background: #b7f1f1;
+    color: #030303;
 }
 .footer-p p{
     font-weight: normal;
@@ -351,13 +380,13 @@ img {
     font-weight: bold;
 }
 .footer-list-item a{
-    color: #FFFFFF;
+    color: #090909;
     text-decoration: none;
 }
 small{
     font-size: 16px;
     line-height: 30px;
-    color: #CDCDCD;
+    color: #060606;
 }
 
 /* Responsive Css */
